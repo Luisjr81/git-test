@@ -1,0 +1,29 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is a website for the fictional campsite review site Nucamp",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luisjr81/git-test.git"
+  },
+  "author": "Luis Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luisjr81/git-test/issues"
+  },
+  "homepage": "https://github.com/Luisjr81/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
